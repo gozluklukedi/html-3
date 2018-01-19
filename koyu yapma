@@ -1,0 +1,34 @@
+Hali hazıra çalışan sayfamızda bir değişiklik yapmak ister isek, hiç program durdurmamıza gerek yok. Yapmamız gereken notepad kısmında ki yazıyı kaydetmek ctl+s yaparak. Ardından tarayıcıdan açtığımız sayfayı yenileyerek vey a f5 yaparak değişiklik yapılmış yazıları görebilmemiz mümkün oluyor.
+Bu derste, yazıların nasıl kalın, üstü çizili ve italic yan yatık olarak ekleneceğiniz göreceğiz.
+
+<!doctype html>
+<html>
+<head>
+    <title>benim sayfam</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+	<body>
+	Hey Puiv!
+	<h1> Merhaba, nasılsın sayın yazar? </h1>
+	<h3> Uzun zamandır yoksun buralarda... </h3>
+	<h4> Ben buradayım </h4>
+	<h5> Haydi, sen de dene! </h5>
+	<hr/>
+	
+	<p> burası bir paragraf sayın yazar </p>
+	<p> ouv bir paragraf daha </p>
+	<hr/>
+	<p>Burayı biçimlendireceğiz.
+	burada tag olarak b i u ve strike taglarını kullanacağız
+	b:bold kalın yazı
+	i: italik
+	u: altı çizili olacak
+	strike üstüne orta yerinden çizgi yapacağız </p>
+	<p> <b>bu </b> <i> yazıyı </i> <strike> biçimlendirdik <strike> </p>
+</body>
+
+</html>
